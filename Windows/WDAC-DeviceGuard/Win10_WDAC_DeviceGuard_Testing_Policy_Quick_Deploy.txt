@@ -29,3 +29,4 @@ ConvertFrom-CIPolicy -XmlFilePath C:\Windows\System32\CodeIntegrity\Merged.xml -
 - http://www.exploit-monday.com/2016/10/code-integrity-policy-reference.html [Thanks to @mattifestation]
 - https://www.fortynorthsecurity.com/building-a-windows-defender-application-control-lab/  [Thanks to @christruncer]
 - https://www.fortynorthsecurity.com/updating-an-existing-windows-defender-application-control-policy/  [Thanks to @christruncer]
+- https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/windows-defender-application-control [Thanks to @oddvarmoe]
