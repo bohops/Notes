@@ -30,3 +30,4 @@ ConvertFrom-CIPolicy -XmlFilePath C:\Windows\System32\CodeIntegrity\Merged.xml -
 - https://www.fortynorthsecurity.com/building-a-windows-defender-application-control-lab/  [Thanks to @christruncer]
 - https://www.fortynorthsecurity.com/updating-an-existing-windows-defender-application-control-policy/  [Thanks to @christruncer]
 - https://github.com/MicrosoftDocs/windows-itpro-docs/tree/master/windows/security/threat-protection/windows-defender-application-control [Thanks to @oddvarmoe]
+- https://gist.github.com/darkoperator/7d5b85354c0343c7554e [Thanks to @Carlos_Perez]
