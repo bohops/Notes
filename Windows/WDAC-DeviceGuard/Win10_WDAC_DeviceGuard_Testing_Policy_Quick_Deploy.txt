@@ -1,0 +1,31 @@
+=====================================================================================================================
+Quickly Deploy an Enforced Windows Defender Application Control (WDAC)/Device Guard Policy with Code Integrity (UMCI) 
+                                      for Testing on Windows 10 Enterprise
+=====================================================================================================================
+
+*As an Administrator, copy and save the Microsoft Block Rules Policy [https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules] to C:\Windows\System32\CodeIntegrity\BlockRules.xml
+
+*Open PowerShell (as an Administrator):
+
+*Merge the Recommended Policy with the Default Policy
+
+Merge-CIPolicy -PolicyPaths C:\Windows\schemas\CodeIntegrity\ExamplePolicies\DefaultWindows_Enforced.xml,C:\Windows\System32\CodeIntegrity\\BlockRules.xml -OutputFilePath C:\Windows\System32\CodeIntegrity\Merged.xml
+
+*Set the Merged Policy to Enforce Rules (Delete Audit Mode):
+
+Set-RuleOption -FilePath C:\Windows\System32\CodeIntegrity\Merged.xml -Option 3 -Delete
+
+*Convert Policy to Binary Format:
+
+ConvertFrom-CIPolicy -XmlFilePath C:\Windows\System32\CodeIntegrity\Merged.xml -BinaryFilePath C:\Windows\System32\CodeIntegrity\SIPolicy.p7b
+
+*Reboot the machine
+
+-------------------------------------------------------------------------------------------
+
+*Great resources if you want to build custom or more robust/flexible policies:
+
+- https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide
+- http://www.exploit-monday.com/2016/10/code-integrity-policy-reference.html [Thanks to @mattifestation]
+- https://www.fortynorthsecurity.com/building-a-windows-defender-application-control-lab/  [Thanks to @christruncer]
+- https://www.fortynorthsecurity.com/updating-an-existing-windows-defender-application-control-policy/  [Thanks to @christruncer]
