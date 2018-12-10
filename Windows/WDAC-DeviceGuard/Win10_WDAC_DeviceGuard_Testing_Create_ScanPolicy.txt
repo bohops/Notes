@@ -4,7 +4,7 @@ Create an Enforced Windows 10 "Custom" WDAC Policy
 *Perform scan (may take a few hours)
 New-CIPolicy -Level PcaCertificate -FilePath C:\Windows\System32\CodeIntegrity\InitialScan.xml –UserPEs
 
-*Fetch block rules from MSFT [] and merge with scan policy
+*Fetch block rules from MSFT [https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules] and merge with scan policy
 Merge-CIPolicy -PolicyPaths C:\Windows\System32\CodeIntegrity\InitialScan.xml,C:\Windows\System32\CodeIntegrity\BlockRules.xml -OutputFilePath C:\Windows\System32\CodeIntegrity\Merged.xml
 
 *Remove Audit Mode to configure policy enforcement
