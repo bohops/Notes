@@ -9,7 +9,7 @@ Quickly Deploy an Enforced Windows Defender Application Control (WDAC)/Device Gu
 
 *Merge the Block Rules Policy with the Default Enforced Policy
 
-Merge-CIPolicy -PolicyPaths C:\Windows\schemas\CodeIntegrity\ExamplePolicies\DefaultWindows_Enforced.xml,C:\Windows\System32\CodeIntegrity\\BlockRules.xml -OutputFilePath C:\Windows\System32\CodeIntegrity\Merged.xml
+Merge-CIPolicy -PolicyPaths C:\Windows\schemas\CodeIntegrity\ExamplePolicies\DefaultWindows_Enforced.xml,C:\Windows\System32\CodeIntegrity\BlockRules.xml -OutputFilePath C:\Windows\System32\CodeIntegrity\Merged.xml
 
 *Set the Merged Policy to Enforce Rules (Delete Audit Mode):
 
