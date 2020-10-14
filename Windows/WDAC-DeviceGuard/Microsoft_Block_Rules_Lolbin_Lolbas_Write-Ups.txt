@@ -141,7 +141,11 @@ COM/Microsoft Office/Active Scripting Languages (jscript.dll, msxml3.dll, msxml6
   - Jimmy Bayne (@bohops)
   - https://bohops.com/2019/05/04/abusing-catalog-file-hygiene-to-bypass-application-whitelisting/
 
+- BYPASSING DEVICE GUARD UMCI USING CHM – CVE-2017-8625 
+  - Oddvar Moe (@Oddvarmoe), Matt Nelson (@enigma0x3)
+  - https://oddvar.moe/2017/08/13/bypassing-device-guard-umci-using-chm-cve-2017-8625/
 
+ 
 ==============================
 Novel Living-of-the-land Abuse
 ==============================
