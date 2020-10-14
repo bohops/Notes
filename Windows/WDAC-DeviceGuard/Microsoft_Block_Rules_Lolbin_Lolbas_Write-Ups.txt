@@ -212,3 +212,9 @@ system.management.automation.dll
  
 *rundll32.exe [advpack.dll, ieadvpack.dll, setupapi.dll, syssetup.dll, -sta, -localserver]
  - https://lolbas-project.github.io/lolbas/Binaries/Rundll32/
+ 
+*cscript.exe
+ - https://lolbas-project.github.io/lolbas/Binaries/Cscript/
+ 
+*wscript.exe
+ - https://lolbas-project.github.io/lolbas/Binaries/Wscript/
