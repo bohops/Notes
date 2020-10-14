@@ -145,7 +145,7 @@ COM/Microsoft Office/Active Scripting Languages (jscript.dll, msxml3.dll, msxml6
 ==============================
 Novel Living-of-the-land Abuse
 ==============================
- - cc: @mattifestation, @enigma0x3, @tiraniddo
+ - cc: @mattifestation, @enigma0x3, @tiraniddo, @hexacorn
  - To do...
 
 
