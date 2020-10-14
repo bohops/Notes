@@ -189,7 +189,7 @@ system.management.automation.dll
 
 
 ====================================
-"Classic" Ninaries Not On Block List
+"Classic" Binaries Not On Block List
 ====================================
 
 *cmstp.exe
