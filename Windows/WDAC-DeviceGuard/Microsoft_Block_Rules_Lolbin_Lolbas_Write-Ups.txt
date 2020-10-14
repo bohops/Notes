@@ -117,9 +117,9 @@ Other "Unsigned Code Execution" Binaries (not on list)
   - https://i.blackhat.com/USA-19/Thursday/us-19-Smith-Fantastic-Red-Team-Attacks-And-How-To-Find-Them.pdf
 
 
-======================================================================================
-COM/Microsoft Office/Active Scripting Languagees (jscript.dll, msxml3.dll, msxml6.dll)
-======================================================================================
+=====================================================================================
+COM/Microsoft Office/Active Scripting Languages (jscript.dll, msxml3.dll, msxml6.dll)
+=====================================================================================
 
 - Sneaking Past Device Guard
   - Philip Tsukerman (@PhilipTsukerman)
@@ -178,7 +178,7 @@ wslconfig.exe
 wslhost.exe
 
 ================================================================
-Libraries on list (Independent usage may/may not be interesting)
+Libraries On List (Independent usage may/may not be interesting)
 ================================================================
 
 Microsoft.Build.dll
@@ -189,7 +189,7 @@ system.management.automation.dll
 
 
 ====================================
-"Classic" binaries not on block list
+"Classic" Ninaries Not On Block List
 ====================================
 
 *cmstp.exe
