@@ -1,6 +1,6 @@
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Public Write-Ups for Lolbins|Libraries|Scripts within the "Microsoft Recommended Block Rules"
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Public Write-Ups for Lolbins|Libraries|Scripts on the "Microsoft Recommended Block Rules"
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
  - https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules
  - Focus is on signed/trusted binaries that can be used as a vector for executing unsigned, arbitrary code
