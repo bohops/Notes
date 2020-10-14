@@ -198,6 +198,8 @@ system.management.automation.dll
 "Classic" Binaries Not On Block List
 ====================================
 
+* Note: These (likely) are mitigated under (most) WDAC implementations
+
 *cmstp.exe
  - https://lolbas-project.github.io/lolbas/Binaries/Cmstp/
 
