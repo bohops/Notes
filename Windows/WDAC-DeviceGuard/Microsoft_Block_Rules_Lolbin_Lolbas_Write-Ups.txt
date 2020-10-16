@@ -94,6 +94,11 @@ Block Rules Binary Write-Ups
  - Bypassing Application Whitelisting with runscripthelper.exe
   - https://posts.specterops.io/bypassing-application-whitelisting-with-runscripthelper-exe-1906923658fc
 
+*visualuiaverifynative.exe
+ - Lee Christensen (@tifkin_) [Write-up: Jimmy Bayne (@bohops)]
+ - Exploring the WDAC Microsoft Recommended Block Rules: VisualUiaVerifyNative
+  - https://bohops.com/2020/10/15/exploring-the-wdac-microsoft-recommended-block-rules-visualuiaverifynative/
+
 *windbg.exe
  - Matt Graeber (@mattifestation)
  - Bypassing Application Whitelisting by using WinDbg/CDB as a Shellcode Runner
@@ -175,7 +180,6 @@ lxrun.exe
 ntkd.exe
 ntsd.exe
 texttransform.exe
-visualuiaverifynative.exe (cc: @tifkin_)
 wfc.exe
 wsl.exe
 wslconfig.exe
