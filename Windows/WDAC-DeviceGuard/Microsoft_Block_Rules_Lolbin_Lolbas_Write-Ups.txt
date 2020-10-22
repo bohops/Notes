@@ -58,6 +58,12 @@ Block Rules Binary Write-Ups
    - https://gist.github.com/NickTyrer/51eb8c774a909634fa69b4d06fc79ae1
    - https://twitter.com/NickTyrer/status/904273264385589248
 
+*fsiAnyCpu.exe
+ - Nick Tyrer (@NickTyrer) via fsi.exe inline execution
+ - GitHub Gist: fsi.exe inline execution
+   - https://gist.github.com/NickTyrer/51eb8c774a909634fa69b4d06fc79ae1
+   - https://twitter.com/bohops/status/1319096336441090050
+
 *infdefaultinstall.exe
  - Kyle Hanslovan (@KyleHanslovan), Chris Bisnett (@chrisbisnett)
    - https://github.com/huntresslabs/evading-autoruns
@@ -173,7 +179,6 @@ addinutil.exe
 bash.exe
 csi.exe
 dbgsvc.exe
-fsiAnyCpu.exe
 kd.exe
 kill.exe
 lxrun.exe
