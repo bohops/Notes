@@ -37,6 +37,11 @@ Block Rules Binary Write-Ups
 - Bypassing Application Whitelisting by using WinDbg/CDB as a Shellcode Runner
   - http://www.exploit-monday.com/2016/08/windbg-cdb-shellcode-runner.html
 
+*csi.exe
+ - Casey Smith (@subTee)
+ - Application Whitelisting Bypass - CSI.EXE C# Scripting
+  - https://web.archive.org/web/20161008143428/http://subt0x10.blogspot.com/2016/09/application-whitelisting-bypass-csiexe.html
+
 *dbghost.exe
 - Matt Graeber (@mattifestation)
 - dbghost.exe - Ghost And The Darkness
@@ -177,7 +182,6 @@ On List - Not Documented
 
 addinutil.exe
 bash.exe
-csi.exe
 dbgsvc.exe
 kd.exe
 kill.exe
